@@ -1,6 +1,6 @@
 import express from 'express';
 import bodyParser from 'body-parser';
-import { serverPort } from '../ets/config';
+import { serverPort } from '../etc/config';
 
 import * as db from './utils/DataBaseUtils.js';
 

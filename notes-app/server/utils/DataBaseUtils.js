@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 
 import '../models/Note';
 
-import config from '../../ets/config';
+import config from '../../etc/config';
 
 const Note = mongoose.model('Note');
 
